@@ -1,0 +1,54 @@
+/*
+* Jasmine Middaugh
+* 04 January 2018
+* My Cause and Description
+*/
+
+/* The universal selector */
+
+* { 
+    margin:0j
+    padding:0j
+}
+
+/* Body attributes here */
+
+body {
+
+}
+
+/*this is my main header with a red line underneath*/
+h1 {text-align: center;
+    border-bottom: 5px solid red;
+    padding: 5 em;
+    margin: 0.5 em;}
+
+/*my first image floated to the left*/
+#sealslaughter {float: left;
+                border: 2px dotted black;
+                margin: 10px;}
+
+#next_para {clear:right;}
+
+/*this made all of the headers after my main header blue*/
+h2 {color: skyblue;}
+
+/*these are my five pictures all lined across the page*/
+#SadSeal {height: 125px; width: 150px; margin: 5px;}
+#BadMan {height: 125px; width: 150px; border: 1px solid black; margin: 5px;}
+#SadSeal2 {height: 125px; width: 150px; border: 1px solid black; margin: 5px;}
+#SaveThisSeal {height: 125px; width: 150px; border: 1px solid black; margin: 5px;}
+#BadMan2 {height: 125px; width: 150px; border: 1px solid black; margin: 5px;}
+
+/*my final image floated to the right*/
+#Seal2 {height: 150px; width: 225px; border: 1px solid black; margin: 10px; float: right;}
+
+/*this is the bottom of my page with a red line above the resources*/
+footer {border-top: 5px solid red;
+        padding: 10 em;}
+
+/*these are my two sentences at the bottom in blue*/
+p3 {color: deepskyblue;}
+
+p4 {color: deepskyblue;
+    float: right;}
